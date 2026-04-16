@@ -25,7 +25,7 @@ I'm an undergrad researcher building systems that push computation to the edge â
 <tr>
 <td width="50%" valign="top">
 
-**ADAMS Lab** â€” *Swarm Robotics*
+**ADAMS Lab** â€” _Swarm Robotics_
 <sub>Dec 2024 â€“ Present</sub>
 
 - Led development of a decentralized swarm system for signal source localization â€” **4 physical robots**, validated with **50 agents** in simulation
@@ -36,7 +36,7 @@ I'm an undergrad researcher building systems that push computation to the edge â
 </td>
 <td width="50%" valign="top">
 
-**SCORE Lab** â€” *Metagenomics*
+**SCORE Lab** â€” _Metagenomics_
 <sub>May 2024 â€“ Present</sub>
 
 - Built **Coriolis-Lite**, a lightweight metagenomic classifier using FM-indexes via sdsl-lite for memory-efficient classification on mobile devices
@@ -51,10 +51,10 @@ I'm an undergrad researcher building systems that push computation to the edge â
 
 ### Projects
 
-| Project | Stack | Highlights |
-|---------|-------|------------|
-| **Decentralized Signal Source Localization** | ROS2, Python, PyTorch | Distributed GP surrogates with online updates across swarm; robust under RF, LoRa, WiFi conditions; deployed on TurtleBot platforms |
-| **Bi-level Optimization for Swarm Robotics** | Python, PyTorch, ROS2, OpenAI Gym | Co-optimizes BO hyperparameters and robot hardware (geometry, velocity, battery) for hardware-aware swarm deployment |
+| Project                                      | Stack                             | Highlights                                                                                                                          |
+| -------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Decentralized Signal Source Localization** | ROS2, Python, PyTorch             | Distributed GP surrogates with online updates across swarm; robust under RF, LoRa, WiFi conditions; deployed on TurtleBot platforms |
+| **Bi-level Optimization for Swarm Robotics** | Python, PyTorch, ROS2, OpenAI Gym | Co-optimizes BO hyperparameters and robot hardware (geometry, velocity, battery) for hardware-aware swarm deployment                |
 
 ---
 
@@ -96,6 +96,15 @@ I'm an undergrad researcher building systems that push computation to the edge â
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=purushotham91&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=purushotham91&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=purushotham91&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <a href="https://gitlab.com/puru_s"><img src="https://img.shields.io/badge/GitLab-puru__s-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" /></a>
+  <a href="https://github.com/purushotham91"><img src="https://img.shields.io/badge/GitHub-purushotham91-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---
