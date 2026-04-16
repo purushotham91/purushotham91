@@ -32,7 +32,6 @@ I'm an undergrad researcher building systems that push computation to the edge â
 - Paper submitted to **IROS 2026**
 - Designed distributed inference with Bayesian Optimization & Gaussian Processes
 - Trained RL policy for aerial target tracking â€” **5x improvement** over PID baselines at **10 m/s**
-- Reduced GP inference overhead via CNN-based downsampling for real-time mobile deployment
 
 </td>
 <td width="50%" valign="top">
