@@ -39,8 +39,8 @@ I'm an undergrad researcher building systems that push computation to the edge �
 **SCORE Lab** — _Metagenomics_
 <sub>May 2024 – Present</sub>
 
-- Built **Coriolis-Lite**, a lightweight metagenomic classifier using FM-indexes via sdsl-lite for memory-efficient classification on mobile devices
-- Adapted **SKiM** to edge devices — **6x speedup** over mmap-based implementation
+- Built **[Coriolis-Lite](https://gitlab.com/SCoRe-Group/smarten/-/tree/master/coriolis-lite)**, a lightweight metagenomic classifier using FM-indexes via sdsl-lite for memory-efficient classification on mobile devices
+- Adapted **[SKiM](https://gitlab.com/SCoRe-Group/SKiM)** to edge devices — **6x speedup** over mmap-based implementation
 - Benchmarked hashing & caching across **63M keys**, replacing hash-based index with minimal perfect hashing
 
 </td>
