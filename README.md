@@ -15,7 +15,7 @@
 
 ### About
 
-I'm an undergrad researcher building systems that push computation to the edge — from lightweight metagenomic classifiers running on phones to decentralized swarm robots localizing signal sources without a central coordinator. I care about making algorithms work under real hardware constraints.
+I'm an undergrad researcher building systems that push computation to the edge, from lightweight metagenomic classifiers running on phones to decentralized swarm robots localizing signal sources without a central coordinator. I care about making algorithms work under real hardware constraints.
 
 ---
 
@@ -25,22 +25,22 @@ I'm an undergrad researcher building systems that push computation to the edge �
 <tr>
 <td width="50%" valign="top">
 
-**ADAMS Lab** — _Swarm Robotics_
+**ADAMS Lab** | _Swarm Robotics_
 <sub>Dec 2024 – Present</sub>
 
-- Led development of a decentralized swarm system for signal source localization — **4 physical robots**, validated with **50 agents** in simulation
+- Led development of a decentralized swarm system for signal source localization with **4 physical robots**, validated with **50 agents** in simulation
 - Paper submitted to **IROS 2026**
 - Designed distributed inference with Bayesian Optimization & Gaussian Processes
-- Trained RL policy for aerial target tracking — **5x improvement** over PID baselines at **10 m/s**
+- Trained RL policy for aerial target tracking, achieving **5x improvement** over PID baselines at **10 m/s**
 
 </td>
 <td width="50%" valign="top">
 
-**SCORE Lab** — _Metagenomics_
+**SCORE Lab** | _Metagenomics_
 <sub>May 2024 – Present</sub>
 
 - Built **[Coriolis-Lite](https://gitlab.com/SCoRe-Group/smarten/-/tree/master/coriolis-lite)**, a lightweight metagenomic classifier using FM-indexes via sdsl-lite for memory-efficient classification on mobile devices
-- Adapted **[SKiM](https://gitlab.com/SCoRe-Group/SKiM)** to edge devices — **6x speedup** over mmap-based implementation
+- Adapted **[SKiM](https://gitlab.com/SCoRe-Group/SKiM)** to edge devices, achieving **6x speedup** over mmap-based implementation
 - Benchmarked hashing & caching across **63M keys**, replacing hash-based index with minimal perfect hashing
 
 </td>
@@ -88,8 +88,8 @@ I'm an undergrad researcher building systems that push computation to the edge �
 
 ### Experience
 
-- **Software Engineering Intern** @ Foundry Medical Technologies — Embedded control logic for a medical ventilator across adult & pediatric modes
-- **Student Leader** @ 3 Pillar Catering, UB — Managing 10+ staff for events of up to 1,000 guests
+- **Software Engineering Intern** @ Foundry Medical Technologies: Embedded control logic for a medical ventilator across adult & pediatric modes
+- **Student Leader** @ 3 Pillar Catering, UB: Managing 10+ staff for events of up to 1,000 guests
 
 ---
 
