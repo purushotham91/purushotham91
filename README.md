@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <em>Available May 2026 — open to new-grad SWE / Robotics / Perf-eng / HFT roles</em>
+</p>
+
+<p align="center">
   <a href="mailto:purusirasap@gmail.com">purusirasap@gmail.com</a> &nbsp;&middot;&nbsp;
   <a href="https://linkedin.com/in/puru-sirasapalli">LinkedIn</a> &nbsp;&middot;&nbsp;
   <a href="https://gitlab.com/puru_s">GitLab</a> &nbsp;&middot;&nbsp;
@@ -39,8 +43,9 @@ I'm an undergrad researcher building systems that push computation to the edge, 
 **SCORE Lab** | _Metagenomics_
 <sub>May 2024 – Present</sub>
 
-- Built **[Coriolis-Lite](https://gitlab.com/SCoRe-Group/smarten/-/tree/master/coriolis-lite)**, a lightweight metagenomic classifier using FM-indexes via sdsl-lite for memory-efficient classification on mobile devices
-- Adapted **[SKiM](https://gitlab.com/SCoRe-Group/SKiM)** to edge devices, achieving **6x speedup** over mmap-based implementation
+- Built **[Coriolis-Lite](https://gitlab.com/SCoRe-Group/smarten/-/tree/master/coriolis-lite)** (primary author), a lightweight C++20 metagenomic classifier using FM-indexes via sdsl-lite for memory-efficient classification on mobile devices
+- Designed external-memory caching subsystem for **[SKiM](https://gitlab.com/SCoRe-Group/SKiM)** (Bioinformatics 2025) — two-threadpool I/O + page-aligned layout, indexes full NCBI RefSeq (~65k genomes) in **~17 GB RAM**, runs on Jetson at **6x speedup** over mmap-based baseline
+- Building **[SKiMet](https://gitlab.com/SCoRe-Group/smarten/-/tree/SKiMet/skimet)** (in development) — a C++23 distributed classifier with gRPC + Intel TBB pipeline, integrating SKiM's compressed index into a server/client architecture for resource-constrained robotics/embedded targets
 - Benchmarked hashing & caching across **63M keys**, replacing hash-based index with minimal perfect hashing
 
 </td>
@@ -49,63 +54,43 @@ I'm an undergrad researcher building systems that push computation to the edge, 
 
 ---
 
-### Projects
+### Selected Work
 
-| Project                                      | Stack                             | Highlights                                                                                                                          |
-| -------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Decentralized Signal Source Localization** | ROS2, Python, PyTorch             | Distributed GP surrogates with online updates across swarm; robust under RF, LoRa, WiFi conditions; deployed on TurtleBot platforms |
-| **Bi-level Optimization for Swarm Robotics** | Python, PyTorch, ROS2, OpenAI Gym | Co-optimizes BO hyperparameters and robot hardware (geometry, velocity, battery) for hardware-aware swarm deployment                |
+- **[Coriolis-Lite](https://gitlab.com/SCoRe-Group/smarten/-/tree/master/coriolis-lite)** *(primary author)* — C++20 metagenomic classifier. sdsl-lite FM-Index, multi-threaded, NSF-supported. Targets mobile/edge devices.
+- **Decentralized Signal-Source Localization for Swarms** — ROS2 + Python + PyTorch. Distributed GP surrogates with online updates across the swarm, robust under RF / LoRa / WiFi conditions. **4 physical TurtleBots, 50 agents in simulation.** IROS 2026 submission.
+- **RL Aerial-Target Tracking** — PyTorch + ROS2 + Gazebo. End-to-end RL policy that beats PID baselines by **5×** at **10 m/s** target velocity.
+- **SKiMet** *(in development)* — C++23 distributed metagenomic classifier on the SMARTEn framework. gRPC + Intel TBB pipeline, server/client split, AArch64 / Jetson targets.
 
 ---
 
 ### Skills
 
-**Languages**
+**Languages** — depth, not breadth
 
 ![C/C++](https://img.shields.io/badge/-C%2FC%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-**Frameworks & Tools**
+**Systems & Tooling**
+
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![ROS2](https://img.shields.io/badge/-ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Gazebo](https://img.shields.io/badge/-Gazebo-000000?style=flat-square&logo=gazebo&logoColor=white)
+
+**ML / Scientific**
 
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![ROS2](https://img.shields.io/badge/-ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![scikit--learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Hadoop](https://img.shields.io/badge/-Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black)
-![Spark](https://img.shields.io/badge/-Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Gazebo](https://img.shields.io/badge/-Gazebo-000000?style=flat-square&logo=gazebo&logoColor=white)
+![scikit--learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
 ---
 
 ### Experience
 
-- **Software Engineering Intern** @ Foundry Medical Technologies: Embedded control logic for a medical ventilator across adult & pediatric modes
-- **Student Leader** @ 3 Pillar Catering, UB: Managing 10+ staff for events of up to 1,000 guests
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=purushotham91&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=purushotham91&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=purushotham91&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <a href="https://gitlab.com/puru_s"><img src="https://img.shields.io/badge/GitLab-puru__s-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" /></a>
-  <a href="https://github.com/purushotham91"><img src="https://img.shields.io/badge/GitHub-purushotham91-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
+- **Software Engineering Intern** @ Foundry Medical Technologies — Embedded control logic in C for a medical ventilator across adult and pediatric modes; safety-critical firmware on resource-constrained hardware.
+- **Student Leader** @ 3 Pillar Catering, UB — Managed 10+ staff for events of up to **1,000 guests**.
 
 ---
 
