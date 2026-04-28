@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <em>Available May 2026 — open to new-grad SWE / Robotics / Perf-eng / HFT roles</em>
+  <em>Available June 2026 - open to new-grad SWE / Robotics / Perf-eng / HFT roles</em>
 </p>
 
 <p align="center">
